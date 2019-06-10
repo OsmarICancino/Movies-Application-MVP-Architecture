@@ -10,7 +10,7 @@ The MVP stands for Model View Presenter. In this architecture, each layer is def
 + `The View` is responsible for displaying data to a user in the form of UI screens. In Android usually, Activity implements the View.
 + `The Presenter` is acted as a middleman between View and Model. It basically retrieves data from Model and returns it to View for display Purpose.
 
-##Project Overview
+## Project Overview
 
 For this project, we will use TMDB API. The internet movie database is a web page similar to IMDB where you can find a list of movies with their description, images, trailers and so on. We are going to show the list of popular movies in recycle view and also details of the selected movie. 
 
